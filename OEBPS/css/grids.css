@@ -1,4 +1,4 @@
-/*
+/*!
 Pure v0.2.0
 Copyright 2013 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
@@ -388,12 +388,17 @@ Mobile (Landscape)
   .pure-g-r > [class^="pure-u"] {
     width: 100%;
   }
+
+  /* line 43, ../sass/vendor/pure/_overrides.scss */
+  .column-next {
+    display: none;
+  }
 }
 /*===================================================================================================
 Tablet (Portrait)
 ===================================================================================================*/
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 49, ../sass/vendor/pure/_overrides.scss */
+  /* line 52, ../sass/vendor/pure/_overrides.scss */
   .container {
     width: 748px;
   }
@@ -402,31 +407,36 @@ Tablet (Portrait)
 Phone (Landscape)
 ===================================================================================================*/
 @media (max-width: 320px) {
-  /* line 57, ../sass/vendor/pure/_overrides.scss */
+  /* line 60, ../sass/vendor/pure/_overrides.scss */
   .container {
     width: 280px;
   }
 
-  /* line 58, ../sass/vendor/pure/_overrides.scss */
+  /* line 61, ../sass/vendor/pure/_overrides.scss */
   .pure-g-r > [class^="pure-u"] {
     width: 100%;
+  }
+
+  /* line 64, ../sass/vendor/pure/_overrides.scss */
+  .column-next {
+    display: none;
   }
 }
 /*===================================================================================================
 Phone (Portrait)
 ===================================================================================================*/
 @media (max-width: 240px) {
-  /* line 67, ../sass/vendor/pure/_overrides.scss */
+  /* line 73, ../sass/vendor/pure/_overrides.scss */
   .container {
     width: 200px;
   }
 
-  /* line 68, ../sass/vendor/pure/_overrides.scss */
+  /* line 74, ../sass/vendor/pure/_overrides.scss */
   nav ul li {
     padding-left: 1rem;
   }
 
-  /* line 69, ../sass/vendor/pure/_overrides.scss */
+  /* line 75, ../sass/vendor/pure/_overrides.scss */
   ul {
     padding-left: 20px;
   }
@@ -434,17 +444,17 @@ Phone (Portrait)
 /*===================================================================================================
 General
 ===================================================================================================*/
-/* line 76, ../sass/vendor/pure/_overrides.scss */
+/* line 82, ../sass/vendor/pure/_overrides.scss */
 .pure-g-r > div {
   box-sizing: border-box;
 }
 
-/* line 80, ../sass/vendor/pure/_overrides.scss */
+/* line 86, ../sass/vendor/pure/_overrides.scss */
 .pure-u-1-2 {
   width: 47.5%;
 }
 
-/* line 83, ../sass/vendor/pure/_overrides.scss */
+/* line 89, ../sass/vendor/pure/_overrides.scss */
 .pure-g-r > div:first-child {
   padding-right: 5%;
 }
