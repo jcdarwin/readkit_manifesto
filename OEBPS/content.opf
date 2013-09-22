@@ -3,7 +3,9 @@
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
         <dc:title>Readk.it: A Manifesto</dc:title>
         <dc:creator>Jason Darwin</dc:creator>
+        <dc:publisher>meBooks</dc:publisher>
         <dc:language>en</dc:language>
+        <dc:description>The Readk.it Manifesto describes a better way of distributing and reading eBooks.</dc:description>
         <dc:rights>&#169; Jason Darwin, 2013</dc:rights>
         <dc:publisher>meBooks</dc:publisher>
         <dc:identifier id="bookid">readkit_a_manifesto</dc:identifier>
