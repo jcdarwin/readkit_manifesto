@@ -25,13 +25,8 @@ $(document).on('kickoff', function() {
         ]);
     }
 
-    // For fluid video embedding
-    $(".video").fitVids();
-
     // Hide callout info
     $(".calloutInfo").css("display", "none");
-    // Don't hide video info
-    $(".videoInfo").css("display", "inline");
 
     // Callout thumbnail hover
     $(".calloutThumbnail").on("mouseenter", function() {

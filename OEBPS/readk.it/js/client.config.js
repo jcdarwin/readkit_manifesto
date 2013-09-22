@@ -23,7 +23,6 @@ var client = {
     // * Detectizr
     required: [
         'client_js/libs/jquery.easing.1.3.min',
-        'client_js/libs/jquery.fitvids.min',
         'client_js/libs/enquire.min',
         'client_js/libs/screenfull.min',
         'client_js/script',
@@ -33,9 +32,8 @@ var client = {
         // We need to describe the dependencies of any non-AMD modules here
         // so that require.js loads them in the correct order.
         'client_js/libs/jquery.easing.1.3.min': ['jquery'],
-        'client_js/libs/jquery.fitvids.min': ['jquery'],
         'client_js/queries': ['client_js/libs/enquire.min'],
-        'client_js/script': ['client_js/queries', 'client_js/libs/jquery.fitvids.min']
+        'client_js/script': ['client_js/queries']
 
     }
 };
